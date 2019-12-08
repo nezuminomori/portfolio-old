@@ -1,0 +1,36 @@
+/* ==========================================================================
+  ヘッダーのスタイル
+========================================================================== */
+@mixin textColor {
+  color: $color-header-text;
+}
+
+// 文字の色
+#nav {
+  @include textColor;
+  color: $color-header-text;
+  a {
+    @include textColor;
+    :hover {
+      @include textColor;
+    }
+  }
+}
+
+// グリッド
+#nav {
+  @include container();
+  @include clearfix();
+  ul {
+    @include column(6);
+    @include push(3);
+    @include container();
+    @include clearfix();
+    li {
+      @include column(2);
+      text-align: center;
+      padding: 20px 0;
+    }
+    @include generate_grid_positions(li, 3);
+  }
+}
