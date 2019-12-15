@@ -5,9 +5,6 @@
 @import "foundation/base";
 @import "foundation/color";
 
-// グリッド
-@import "../../plugin/profoundgrid/grid";
-
 // ==========================================================================
 // Layout
 // ==========================================================================
@@ -26,7 +23,6 @@
 @import "object/Project/profile";
 @import "object/Project/works";
 @import "object/Project/skills";
-@import "object/Project/contact";
 
 // -----------------------------------------------------------------
 // Component
