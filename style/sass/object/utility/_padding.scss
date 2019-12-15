@@ -1,0 +1,27 @@
+$padding-min: 1;
+$padding-max: 50;
+@for $idx from $padding-min through $padding-max {
+  .u-pt#{$idx} {
+    padding-top: #{$idx}px;
+  }
+  .u-pr#{$idx} {
+    padding-right: #{$idx}px;
+  }
+  .u-pb#{$idx} {
+    padding-bottom: #{$idx}px;
+  }
+  .u-pl#{$idx} {
+    padding-left: #{$idx}px;
+  }
+  .u-padding#{$idx} {
+    padding: #{$idx}px;
+  }
+  .u-py#{$idx} {
+    padding-top: #{$idx}px;
+    padding-bottom: #{$idx}px;
+  }
+  .u-px#{$idx} {
+    padding-right: #{$idx}px;
+    padding-left: #{$idx}px;
+  }
+}

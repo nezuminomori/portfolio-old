@@ -1,0 +1,23 @@
+/* ==========================================================================
+  ナビゲーション
+========================================================================== */
+@import "../../foundation/color";
+
+.p-nav {
+  z-index: 1000;
+  background-color: $color-nav-background;
+  color: $color-nav-text;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
+  -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
+  // ul
+  &__list{
+  }
+  // li
+  &__item{
+    display: inline;
+    margin: 10px;
+  }
+}

@@ -1,0 +1,28 @@
+// ==========================================================================
+// メインコンテンツ
+// ==========================================================================
+
+@import "../foundation/color";
+
+.l-main {
+
+  section {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  // 偶数sectionは背景色を変更
+  section:nth-child(even) {
+    background-color: $color-section-background;
+  }
+
+  &__title {
+    font-family: "Open sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: .14em;
+  }
+
+}

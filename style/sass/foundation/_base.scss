@@ -1,9 +1,34 @@
+// ==========================================================================
+// 全体
+// ==========================================================================
+
+@import "../foundation/color";
+
+body {
+  font-size: 14px;
+  line-height: 1.5em;
+  color: $color-all-text;
+  background-color: $color-all-background;
+}
+
 #wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-a, a:hover {
+a {
   text-decoration: none;
+  color: $color-a-text;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+  &:hover{
+    color: $color-a-text-hover;
+  }
+}
+
+p {
+  margin-bottom: 15px;
 }
