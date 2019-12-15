@@ -1,0 +1,27 @@
+$margin-min: 1;
+$margin-max: 50;
+@for $idx from $margin-min through $margin-max {
+  .u-mt#{$idx} {
+    margin-top: #{$idx}px;
+  }
+  .u-mr#{$idx} {
+    margin-right: #{$idx}px;
+  }
+  .u-mb#{$idx} {
+    margin-bottom: #{$idx}px;
+  }
+  .u-ml#{$idx} {
+    margin-left: #{$idx}px;
+  }
+  .u-margin#{$idx} {
+    margin: #{$idx}px;
+  }
+  .u-my#{$idx} {
+    margin-top: #{$idx}px;
+    margin-bottom: #{$idx}px;
+  }
+  .u-mx#{$idx} {
+    margin-right: #{$idx}px;
+    margin-left: #{$idx}px;
+  }
+}

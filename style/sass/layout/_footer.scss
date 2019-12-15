@@ -1,0 +1,10 @@
+// ==========================================================================
+// フッターのスタイル
+// ==========================================================================
+@import "../foundation/color";
+
+#l-footer {
+  font-family: "Open sans", sans-serif;
+  color: $color-footer-text;
+  background-color: $color-footer-background;
+}

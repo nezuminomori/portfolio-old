@@ -1,0 +1,38 @@
+// ==========================================================================
+// カード
+// ==========================================================================
+
+.c-card {
+  max-width: 85%;
+  margin: 0 auto;
+
+  &-title {
+    margin-bottom: 5px;
+  }
+
+  &-list {
+    &__item {
+      width: 75%;
+      margin: 10px auto;
+      padding: 5px 20px;
+      text-align: left;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+    &__title {
+      font-family: "Open sans", sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: .14em;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    &__icon {
+      width: 16px;
+      margin-right: 10px;
+      text-align: center;
+    }
+
+  }
+
+}
