@@ -1,15 +1,19 @@
 # プロジェクトについて
+[サイトURL（https://nezuminomori.github.io/portfolio-old/）](https://nezuminomori.github.io/portfolio-old/)
+
 2019年作成のポートフォリオサイトです。
-2020年に作り直し中のため旧サイトとなります。
-url: https://nezuminomori.github.io/portfolio-old/
+
+作り直し中のため旧サイトとなります。
 
 
 # お借りした素材
 ## ファビコン
-https://nx.myafi.net/icon/wideuse/favicon.html
+[Re:vre](https://nx.myafi.net/icon/wideuse/favicon.html) 様
+
 
 ## デザイン
-https://webdesigner-go.com/template/portfolio-02/
+[未経験からWebデザイナーへ！](https://webdesigner-go.com/template/portfolio-02/)  様
+
 
 ## pulgin
-アイコン - FontAwesome [https://fontawesome.com/]
+[FontAwesome](https://fontawesome.com/)  様
